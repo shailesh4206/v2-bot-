@@ -1,0 +1,478 @@
+2026-09-27 16:15:34,962 [INFO] __main__ — ============================================================
+2026-09-27 16:15:34,962 [INFO] __main__ — 🚀 DELTA MTF LIQUIDITY BOT STARTING
+2026-09-27 16:15:34,962 [INFO] __main__ —    Strategy:  v1.0
+2026-09-27 16:15:34,962 [INFO] __main__ —    Mode:      LIVE SIGNAL
+2026-09-27 16:15:34,963 [INFO] __main__ —    Symbols:   ['BTCUSD', 'ETHUSD', 'SOLUSD']
+2026-09-27 16:15:34,963 [INFO] __main__ —    Timeframes: 4H | 1H | 15M (NO 5M)
+2026-09-27 16:15:34,963 [INFO] __main__ —    ⚠️  SIGNAL-ONLY — BOT DOES NOT PLACE ORDERS
+2026-09-27 16:15:34,963 [INFO] __main__ — ============================================================
+2026-09-27 16:15:34,994 [INFO] __main__ — Telegram command polling started
+2026-09-27 16:15:36,357 [INFO] telegram.bot — Telegram message sent successfully
+2026-09-27 16:15:36,360 [INFO] __main__ — ━━━ Scan #1 @ 2026-09-27T10:45:36Z ━━━
+2026-09-27 16:15:36,360 [INFO] signals.generator — Signal generation started at 2026-09-27T10:45:36.360257+00:00
+2026-09-27 16:15:37,173 [ERROR] market_data.instruments — Error checking liquidity for BTCUSD: 'list' object has no attribute 'get'
+2026-09-27 16:15:39,553 [ERROR] market_data.instruments — Error checking liquidity for ETHUSD: 'list' object has no attribute 'get'
+2026-09-27 16:15:42,515 [ERROR] market_data.instruments — Error checking liquidity for SOLUSD: 'list' object has no attribute 'get'
+2026-09-27 16:15:43,075 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 16:15:43,583 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 16:15:43,586 [INFO] signals.generator — BTC context: 4H=NEUTRAL 1H=NEUTRAL
+2026-09-27 16:15:43,586 [INFO] signals.generator — Processing BTCUSD …
+2026-09-27 16:15:44,108 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 16:15:44,640 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 16:15:45,193 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 15m
+2026-09-27 16:15:45,674 [INFO] market_data.candles — Fetched 48 candles for BTCUSD 1h
+2026-09-27 16:15:45,696 [INFO] signals.generator — BTCUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:15:45,770 [INFO] signals.generator — Processing ETHUSD …
+2026-09-27 16:15:46,419 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 4h
+2026-09-27 16:15:47,036 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 1h
+2026-09-27 16:15:47,593 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 15m
+2026-09-27 16:15:49,164 [INFO] market_data.candles — Fetched 48 candles for ETHUSD 1h
+2026-09-27 16:15:49,188 [INFO] signals.generator — ETHUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:15:49,286 [INFO] signals.generator — Processing SOLUSD …
+2026-09-27 16:15:49,888 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 4h
+2026-09-27 16:15:50,548 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 1h
+2026-09-27 16:15:52,478 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 15m
+2026-09-27 16:15:53,255 [INFO] market_data.candles — Fetched 48 candles for SOLUSD 1h
+2026-09-27 16:15:53,272 [INFO] signals.generator — SOLUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:15:53,330 [INFO] signals.generator — Signal generation complete. Valid signals: 0
+2026-09-27 16:15:53,330 [INFO] __main__ — Found 0 valid setup(s)
+2026-09-27 16:15:53,347 [INFO] __main__ — Scan #1 complete. Sleeping 900s …
+2026-09-27 16:20:29,329 [INFO] __main__ — Shutdown signal received
+2026-09-27 16:20:38,619 [INFO] __main__ — ============================================================
+2026-09-27 16:20:38,619 [INFO] __main__ — 🚀 DELTA MTF LIQUIDITY BOT STARTING
+2026-09-27 16:20:38,619 [INFO] __main__ —    Strategy:  v1.0
+2026-09-27 16:20:38,619 [INFO] __main__ —    Mode:      LIVE SIGNAL
+2026-09-27 16:20:38,620 [INFO] __main__ —    Symbols:   ['BTCUSD', 'ETHUSD', 'SOLUSD']
+2026-09-27 16:20:38,620 [INFO] __main__ —    Timeframes: 4H | 1H | 15M (NO 5M)
+2026-09-27 16:20:38,620 [INFO] __main__ —    ⚠️  SIGNAL-ONLY — BOT DOES NOT PLACE ORDERS
+2026-09-27 16:20:38,620 [INFO] __main__ — ============================================================
+2026-09-27 16:20:38,625 [INFO] __main__ — Telegram command polling started
+2026-09-27 16:20:39,814 [INFO] telegram.bot — Telegram message sent successfully
+2026-09-27 16:20:39,818 [INFO] __main__ — ━━━ Scan #1 @ 2026-09-27T10:50:39Z ━━━
+2026-09-27 16:20:39,818 [INFO] signals.generator — Signal generation started at 2026-09-27T10:50:39.818543+00:00
+2026-09-27 16:20:40,630 [ERROR] market_data.instruments — Error checking liquidity for BTCUSD: 'list' object has no attribute 'get'
+2026-09-27 16:20:43,662 [ERROR] market_data.instruments — Error checking liquidity for ETHUSD: 'list' object has no attribute 'get'
+2026-09-27 16:20:45,986 [ERROR] market_data.instruments — Error checking liquidity for SOLUSD: 'list' object has no attribute 'get'
+2026-09-27 16:20:46,558 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 16:20:47,378 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 16:20:47,383 [INFO] signals.generator — BTC context: 4H=NEUTRAL 1H=NEUTRAL
+2026-09-27 16:20:47,383 [INFO] signals.generator — Processing BTCUSD …
+2026-09-27 16:20:47,946 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 16:20:48,611 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 16:20:50,360 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 15m
+2026-09-27 16:20:51,001 [INFO] market_data.candles — Fetched 48 candles for BTCUSD 1h
+2026-09-27 16:20:51,027 [INFO] signals.generator — BTCUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:20:51,111 [INFO] signals.generator — Processing ETHUSD …
+2026-09-27 16:20:51,621 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 4h
+2026-09-27 16:20:52,216 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 1h
+2026-09-27 16:20:52,789 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 15m
+2026-09-27 16:20:54,754 [INFO] market_data.candles — Fetched 48 candles for ETHUSD 1h
+2026-09-27 16:20:54,779 [INFO] signals.generator — ETHUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:20:54,847 [INFO] signals.generator — Processing SOLUSD …
+2026-09-27 16:20:55,822 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 4h
+2026-09-27 16:20:56,929 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 1h
+2026-09-27 16:20:57,748 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 15m
+2026-09-27 16:20:58,456 [INFO] market_data.candles — Fetched 48 candles for SOLUSD 1h
+2026-09-27 16:20:58,486 [INFO] signals.generator — SOLUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:20:58,550 [INFO] signals.generator — Signal generation complete. Valid signals: 0
+2026-09-27 16:20:58,550 [INFO] __main__ — Found 0 valid setup(s)
+2026-09-27 16:20:58,553 [INFO] __main__ — Scan #1 complete. Sleeping 900s …
+2026-09-27 16:21:26,100 [INFO] __main__ — Command received: /start
+2026-09-27 16:21:27,122 [INFO] telegram.bot — Telegram message sent successfully
+2026-09-27 16:21:39,889 [INFO] __main__ — Command received: /status
+2026-09-27 16:21:40,938 [INFO] telegram.bot — Telegram message sent successfully
+2026-09-27 16:23:18,494 [INFO] __main__ — Command received: /signals
+2026-09-27 16:23:20,063 [INFO] telegram.bot — Telegram message sent successfully
+2026-09-27 16:25:28,891 [INFO] __main__ — Command received: /status
+2026-09-27 16:25:30,387 [INFO] telegram.bot — Telegram message sent successfully
+2026-09-27 16:26:34,843 [INFO] __main__ — Command received: /status
+2026-09-27 16:26:36,385 [INFO] telegram.bot — Telegram message sent successfully
+2026-09-27 16:35:57,675 [INFO] __main__ — Shutdown signal received
+2026-09-27 16:36:01,272 [INFO] __main__ — ============================================================
+2026-09-27 16:36:01,273 [INFO] __main__ — 🚀 DELTA MTF LIQUIDITY BOT STARTING
+2026-09-27 16:36:01,273 [INFO] __main__ —    Strategy:  v1.0
+2026-09-27 16:36:01,273 [INFO] __main__ —    Mode:      LIVE SIGNAL
+2026-09-27 16:36:01,273 [INFO] __main__ —    Symbols:   ['BTCUSD', 'ETHUSD', 'SOLUSD']
+2026-09-27 16:36:01,273 [INFO] __main__ —    Timeframes: 4H | 1H | 15M (NO 5M)
+2026-09-27 16:36:01,273 [INFO] __main__ —    ⚠️  SIGNAL-ONLY — BOT DOES NOT PLACE ORDERS
+2026-09-27 16:36:01,273 [INFO] __main__ — ============================================================
+2026-09-27 16:36:01,277 [INFO] __main__ — Telegram command polling started
+2026-09-27 16:36:02,322 [INFO] telegram.bot — Telegram message sent successfully
+2026-09-27 16:36:02,325 [INFO] __main__ — ━━━ Scan #1 @ 2026-09-27T11:06:02Z ━━━
+2026-09-27 16:36:02,325 [INFO] signals.generator — Signal generation started at 2026-09-27T11:06:02.325426+00:00
+2026-09-27 16:36:05,530 [WARNING] market_data.delta_client — HTTP error on attempt 1/3: 404 Client Error: Not Found for url: https://api.india.delta.exchange/v2/l2orderbook?symbol=BTCUSD&depth=1
+2026-09-27 16:36:05,530 [INFO] market_data.delta_client — Retrying in 2.0s …
+2026-09-27 16:36:08,543 [WARNING] market_data.delta_client — HTTP error on attempt 2/3: 404 Client Error: Not Found for url: https://api.india.delta.exchange/v2/l2orderbook?symbol=BTCUSD&depth=1
+2026-09-27 16:36:08,544 [INFO] market_data.delta_client — Retrying in 4.0s …
+2026-09-27 16:36:12,764 [WARNING] market_data.delta_client — HTTP error on attempt 3/3: 404 Client Error: Not Found for url: https://api.india.delta.exchange/v2/l2orderbook?symbol=BTCUSD&depth=1
+2026-09-27 16:36:12,765 [ERROR] market_data.delta_client — All 3 attempts failed for /v2/l2orderbook
+2026-09-27 16:36:12,766 [WARNING] market_data.instruments — Unexpected orderbook response type: NoneType
+2026-09-27 16:36:12,766 [WARNING] market_data.instruments — BTCUSD: orderbook unavailable — filtered out
+2026-09-27 16:36:18,772 [WARNING] market_data.delta_client — HTTP error on attempt 1/3: 404 Client Error: Not Found for url: https://api.india.delta.exchange/v2/l2orderbook?symbol=ETHUSD&depth=1
+2026-09-27 16:36:18,774 [INFO] market_data.delta_client — Retrying in 2.0s …
+2026-09-27 16:36:21,796 [WARNING] market_data.delta_client — HTTP error on attempt 2/3: 404 Client Error: Not Found for url: https://api.india.delta.exchange/v2/l2orderbook?symbol=ETHUSD&depth=1
+2026-09-27 16:36:21,796 [INFO] market_data.delta_client — Retrying in 4.0s …
+2026-09-27 16:36:25,995 [WARNING] market_data.delta_client — HTTP error on attempt 3/3: 404 Client Error: Not Found for url: https://api.india.delta.exchange/v2/l2orderbook?symbol=ETHUSD&depth=1
+2026-09-27 16:36:25,996 [ERROR] market_data.delta_client — All 3 attempts failed for /v2/l2orderbook
+2026-09-27 16:36:25,996 [WARNING] market_data.instruments — Unexpected orderbook response type: NoneType
+2026-09-27 16:36:25,997 [WARNING] market_data.instruments — ETHUSD: orderbook unavailable — filtered out
+2026-09-27 16:36:32,013 [WARNING] market_data.delta_client — HTTP error on attempt 1/3: 404 Client Error: Not Found for url: https://api.india.delta.exchange/v2/l2orderbook?symbol=SOLUSD&depth=1
+2026-09-27 16:36:32,014 [INFO] market_data.delta_client — Retrying in 2.0s …
+2026-09-27 16:36:34,959 [WARNING] market_data.delta_client — HTTP error on attempt 2/3: 404 Client Error: Not Found for url: https://api.india.delta.exchange/v2/l2orderbook?symbol=SOLUSD&depth=1
+2026-09-27 16:36:34,960 [INFO] market_data.delta_client — Retrying in 4.0s …
+2026-09-27 16:36:39,120 [WARNING] market_data.delta_client — HTTP error on attempt 3/3: 404 Client Error: Not Found for url: https://api.india.delta.exchange/v2/l2orderbook?symbol=SOLUSD&depth=1
+2026-09-27 16:36:39,121 [ERROR] market_data.delta_client — All 3 attempts failed for /v2/l2orderbook
+2026-09-27 16:36:39,121 [WARNING] market_data.instruments — Unexpected orderbook response type: NoneType
+2026-09-27 16:36:39,122 [WARNING] market_data.instruments — SOLUSD: orderbook unavailable — filtered out
+2026-09-27 16:36:39,124 [WARNING] signals.generator — No liquid symbols found — using configured defaults
+2026-09-27 16:36:39,931 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 16:36:40,545 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 16:36:40,549 [INFO] signals.generator — BTC context: 4H=NEUTRAL 1H=NEUTRAL
+2026-09-27 16:36:40,549 [INFO] signals.generator — Processing BTCUSD …
+2026-09-27 16:36:41,143 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 16:36:41,641 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 16:36:42,219 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 15m
+2026-09-27 16:36:42,725 [INFO] market_data.candles — Fetched 48 candles for BTCUSD 1h
+2026-09-27 16:36:42,741 [INFO] signals.generator — BTCUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:36:42,800 [INFO] signals.generator — Processing ETHUSD …
+2026-09-27 16:36:43,444 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 4h
+2026-09-27 16:36:44,177 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 1h
+2026-09-27 16:36:44,903 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 15m
+2026-09-27 16:36:45,513 [INFO] market_data.candles — Fetched 48 candles for ETHUSD 1h
+2026-09-27 16:36:45,530 [INFO] signals.generator — ETHUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:36:45,600 [INFO] signals.generator — Processing SOLUSD …
+2026-09-27 16:36:46,142 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 4h
+2026-09-27 16:36:46,649 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 1h
+2026-09-27 16:36:47,141 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 15m
+2026-09-27 16:36:47,608 [INFO] market_data.candles — Fetched 48 candles for SOLUSD 1h
+2026-09-27 16:36:47,633 [INFO] signals.generator — SOLUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:36:47,691 [INFO] signals.generator — Signal generation complete. Valid signals: 0
+2026-09-27 16:36:47,691 [INFO] __main__ — Found 0 valid setup(s)
+2026-09-27 16:36:47,695 [INFO] __main__ — Scan #1 complete. Sleeping 900s …
+2026-09-27 16:39:02,885 [INFO] __main__ — Shutdown signal received
+2026-09-27 16:39:06,418 [INFO] __main__ — ============================================================
+2026-09-27 16:39:06,418 [INFO] __main__ — 🚀 DELTA MTF LIQUIDITY BOT STARTING
+2026-09-27 16:39:06,419 [INFO] __main__ —    Strategy:  v1.0
+2026-09-27 16:39:06,419 [INFO] __main__ —    Mode:      LIVE SIGNAL
+2026-09-27 16:39:06,419 [INFO] __main__ —    Symbols:   ['BTCUSD', 'ETHUSD', 'SOLUSD']
+2026-09-27 16:39:06,419 [INFO] __main__ —    Timeframes: 4H | 1H | 15M (NO 5M)
+2026-09-27 16:39:06,419 [INFO] __main__ —    ⚠️  SIGNAL-ONLY — BOT DOES NOT PLACE ORDERS
+2026-09-27 16:39:06,419 [INFO] __main__ — ============================================================
+2026-09-27 16:39:06,423 [INFO] __main__ — Telegram command polling started
+2026-09-27 16:39:07,471 [INFO] telegram.bot — Telegram message sent successfully
+2026-09-27 16:39:07,473 [INFO] __main__ — ━━━ Scan #1 @ 2026-09-27T11:09:07Z ━━━
+2026-09-27 16:39:07,473 [INFO] signals.generator — Signal generation started at 2026-09-27T11:09:07.473736+00:00
+2026-09-27 16:39:10,696 [INFO] market_data.instruments — BTCUSD: passed liquidity filter (volume $464,751,728, spread 0.001%)
+2026-09-27 16:39:16,713 [INFO] market_data.instruments — ETHUSD: passed liquidity filter (volume $304,692,523, spread 0.002%)
+2026-09-27 16:39:22,798 [INFO] market_data.instruments — SOLUSD: passed liquidity filter (volume $191,792,322, spread 0.009%)
+2026-09-27 16:39:23,875 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 16:39:24,896 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 16:39:24,900 [INFO] signals.generator — BTC context: 4H=NEUTRAL 1H=NEUTRAL
+2026-09-27 16:39:24,900 [INFO] signals.generator — Processing BTCUSD …
+2026-09-27 16:39:26,086 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 16:39:27,329 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 16:39:28,503 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 15m
+2026-09-27 16:39:29,636 [INFO] market_data.candles — Fetched 48 candles for BTCUSD 1h
+2026-09-27 16:39:29,703 [INFO] signals.generator — BTCUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:39:29,916 [INFO] signals.generator — Processing ETHUSD …
+2026-09-27 16:39:30,895 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 4h
+2026-09-27 16:39:32,121 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 1h
+2026-09-27 16:39:33,189 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 15m
+2026-09-27 16:39:34,317 [INFO] market_data.candles — Fetched 48 candles for ETHUSD 1h
+2026-09-27 16:39:34,430 [INFO] signals.generator — ETHUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:39:34,660 [INFO] signals.generator — Processing SOLUSD …
+2026-09-27 16:39:35,696 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 4h
+2026-09-27 16:39:36,772 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 1h
+2026-09-27 16:39:37,886 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 15m
+2026-09-27 16:39:39,085 [INFO] market_data.candles — Fetched 48 candles for SOLUSD 1h
+2026-09-27 16:39:39,157 [INFO] signals.generator — SOLUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:39:39,406 [INFO] signals.generator — Signal generation complete. Valid signals: 0
+2026-09-27 16:39:39,407 [INFO] __main__ — Found 0 valid setup(s)
+2026-09-27 16:39:39,414 [INFO] __main__ — Scan #1 complete. Sleeping 900s …
+2026-09-27 16:40:40,750 [INFO] __main__ — Command received: /status
+2026-09-27 16:40:42,061 [INFO] telegram.bot — Telegram message sent successfully
+2026-09-27 16:42:36,032 [INFO] __main__ — Command received: /status
+2026-09-27 16:42:37,521 [INFO] telegram.bot — Telegram message sent successfully
+2026-09-27 16:47:17,750 [INFO] __main__ — Shutdown signal received
+2026-09-27 16:47:20,285 [INFO] __main__ — ============================================================
+2026-09-27 16:47:20,285 [INFO] __main__ — 🚀 DELTA MTF LIQUIDITY BOT STARTING
+2026-09-27 16:47:20,285 [INFO] __main__ —    Strategy:  v1.0
+2026-09-27 16:47:20,285 [INFO] __main__ —    Mode:      LIVE SIGNAL
+2026-09-27 16:47:20,285 [INFO] __main__ —    Symbols:   ['BTCUSD', 'ETHUSD', 'SOLUSD']
+2026-09-27 16:47:20,286 [INFO] __main__ —    Timeframes: 4H | 1H | 15M (NO 5M)
+2026-09-27 16:47:20,286 [INFO] __main__ —    ⚠️  SIGNAL-ONLY — BOT DOES NOT PLACE ORDERS
+2026-09-27 16:47:20,286 [INFO] __main__ — ============================================================
+2026-09-27 16:47:20,290 [INFO] __main__ — Telegram command polling started
+2026-09-27 16:47:21,326 [INFO] telegram.bot — Telegram message sent successfully
+2026-09-27 16:47:21,328 [INFO] __main__ — ━━━ Scan #1 @ 2026-09-27T11:17:21Z ━━━
+2026-09-27 16:47:21,328 [INFO] signals.generator — Signal generation started at 2026-09-27T11:17:21.328694+00:00
+2026-09-27 16:47:24,511 [INFO] market_data.instruments — BTCUSD: passed liquidity filter (volume $466,224,774, spread 0.001%)
+2026-09-27 16:47:30,577 [INFO] market_data.instruments — ETHUSD: passed liquidity filter (volume $304,994,099, spread 0.002%)
+2026-09-27 16:47:36,517 [INFO] market_data.instruments — SOLUSD: passed liquidity filter (volume $192,307,180, spread 0.009%)
+2026-09-27 16:47:37,238 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 16:47:37,955 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 16:47:37,957 [INFO] signals.generator — BTC context: 4H=NEUTRAL 1H=NEUTRAL
+2026-09-27 16:47:37,957 [INFO] signals.generator — Processing BTCUSD …
+2026-09-27 16:47:38,807 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 16:47:39,777 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 16:47:40,519 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 15m
+2026-09-27 16:47:41,232 [INFO] market_data.candles — Fetched 48 candles for BTCUSD 1h
+2026-09-27 16:47:41,267 [INFO] signals.generator — BTCUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:47:41,589 [INFO] signals.generator — Processing ETHUSD …
+2026-09-27 16:47:42,822 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 4h
+2026-09-27 16:47:43,957 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 1h
+2026-09-27 16:47:45,005 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 15m
+2026-09-27 16:47:45,980 [INFO] market_data.candles — Fetched 48 candles for ETHUSD 1h
+2026-09-27 16:47:46,051 [INFO] signals.generator — ETHUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:47:46,283 [INFO] signals.generator — Processing SOLUSD …
+2026-09-27 16:47:47,335 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 4h
+2026-09-27 16:47:48,605 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 1h
+2026-09-27 16:47:49,838 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 15m
+2026-09-27 16:47:50,960 [INFO] market_data.candles — Fetched 48 candles for SOLUSD 1h
+2026-09-27 16:47:51,026 [INFO] signals.generator — SOLUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:47:51,247 [INFO] signals.generator — Signal generation complete. Valid signals: 0
+2026-09-27 16:47:51,248 [INFO] __main__ — Found 0 valid setup(s)
+2026-09-27 16:47:51,256 [INFO] __main__ — Scan #1 complete. Sleeping 300s …
+2026-09-27 16:47:54,986 [INFO] __main__ — Command received: /start
+2026-09-27 16:47:56,689 [INFO] telegram.bot — Telegram message sent successfully
+2026-09-27 16:48:07,340 [INFO] __main__ — Command received: /history
+2026-09-27 16:48:08,976 [INFO] telegram.bot — Telegram message sent successfully
+2026-09-27 16:48:14,920 [INFO] __main__ — Command received: /status
+2026-09-27 16:48:16,454 [INFO] telegram.bot — Telegram message sent successfully
+2026-09-27 16:52:51,260 [INFO] __main__ — ━━━ Scan #2 @ 2026-09-27T11:22:51Z ━━━
+2026-09-27 16:52:51,260 [INFO] signals.generator — Signal generation started at 2026-09-27T11:22:51.260605+00:00
+2026-09-27 16:52:54,471 [INFO] market_data.instruments — BTCUSD: passed liquidity filter (volume $470,191,272, spread 0.001%)
+2026-09-27 16:53:00,472 [INFO] market_data.instruments — ETHUSD: passed liquidity filter (volume $306,046,430, spread 0.002%)
+2026-09-27 16:53:06,600 [INFO] market_data.instruments — SOLUSD: passed liquidity filter (volume $193,902,947, spread 0.009%)
+2026-09-27 16:53:07,586 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 16:53:08,607 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 16:53:08,610 [INFO] signals.generator — BTC context: 4H=NEUTRAL 1H=NEUTRAL
+2026-09-27 16:53:08,611 [INFO] signals.generator — Processing BTCUSD …
+2026-09-27 16:53:09,222 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 16:53:10,998 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 16:53:11,988 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 15m
+2026-09-27 16:53:12,627 [INFO] market_data.candles — Fetched 48 candles for BTCUSD 1h
+2026-09-27 16:53:12,651 [INFO] signals.generator — BTCUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:53:12,714 [INFO] signals.generator — Processing ETHUSD …
+2026-09-27 16:53:13,340 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 4h
+2026-09-27 16:53:13,890 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 1h
+2026-09-27 16:53:14,596 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 15m
+2026-09-27 16:53:15,552 [INFO] market_data.candles — Fetched 48 candles for ETHUSD 1h
+2026-09-27 16:53:15,577 [INFO] signals.generator — ETHUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:53:15,641 [INFO] signals.generator — Processing SOLUSD …
+2026-09-27 16:53:16,232 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 4h
+2026-09-27 16:53:16,829 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 1h
+2026-09-27 16:53:17,430 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 15m
+2026-09-27 16:53:18,295 [INFO] market_data.candles — Fetched 48 candles for SOLUSD 1h
+2026-09-27 16:53:18,310 [INFO] signals.generator — SOLUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:53:18,370 [INFO] signals.generator — Signal generation complete. Valid signals: 0
+2026-09-27 16:53:18,371 [INFO] __main__ — Found 0 valid setup(s)
+2026-09-27 16:53:18,379 [INFO] __main__ — Scan #2 complete. Sleeping 300s …
+2026-09-27 16:58:18,380 [INFO] __main__ — ━━━ Scan #3 @ 2026-09-27T11:28:18Z ━━━
+2026-09-27 16:58:18,381 [INFO] signals.generator — Signal generation started at 2026-09-27T11:28:18.381219+00:00
+2026-09-27 16:58:21,562 [INFO] market_data.instruments — BTCUSD: passed liquidity filter (volume $476,567,867, spread 0.001%)
+2026-09-27 16:58:27,613 [INFO] market_data.instruments — ETHUSD: passed liquidity filter (volume $308,379,811, spread 0.004%)
+2026-09-27 16:58:33,566 [INFO] market_data.instruments — SOLUSD: passed liquidity filter (volume $194,394,997, spread 0.009%)
+2026-09-27 16:58:34,165 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 16:58:34,956 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 16:58:34,958 [INFO] signals.generator — BTC context: 4H=NEUTRAL 1H=NEUTRAL
+2026-09-27 16:58:34,958 [INFO] signals.generator — Processing BTCUSD …
+2026-09-27 16:58:35,662 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 16:58:36,328 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 16:58:36,931 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 15m
+2026-09-27 16:58:37,454 [INFO] market_data.candles — Fetched 48 candles for BTCUSD 1h
+2026-09-27 16:58:37,476 [INFO] signals.generator — BTCUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:58:37,535 [INFO] signals.generator — Processing ETHUSD …
+2026-09-27 16:58:38,096 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 4h
+2026-09-27 16:58:38,676 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 1h
+2026-09-27 16:58:39,196 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 15m
+2026-09-27 16:58:39,786 [INFO] market_data.candles — Fetched 48 candles for ETHUSD 1h
+2026-09-27 16:58:39,810 [INFO] signals.generator — ETHUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:58:39,875 [INFO] signals.generator — Processing SOLUSD …
+2026-09-27 16:58:40,455 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 4h
+2026-09-27 16:58:41,013 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 1h
+2026-09-27 16:58:41,585 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 15m
+2026-09-27 16:58:42,205 [INFO] market_data.candles — Fetched 48 candles for SOLUSD 1h
+2026-09-27 16:58:42,226 [INFO] signals.generator — SOLUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 16:58:42,292 [INFO] signals.generator — Signal generation complete. Valid signals: 0
+2026-09-27 16:58:42,293 [INFO] __main__ — Found 0 valid setup(s)
+2026-09-27 16:58:42,296 [INFO] __main__ — Scan #3 complete. Sleeping 300s …
+2026-09-27 17:03:24,344 [INFO] __main__ — Command received: /learning
+2026-09-27 17:03:25,978 [INFO] telegram.bot — Telegram message sent successfully
+2026-09-27 17:03:42,296 [INFO] __main__ — ━━━ Scan #4 @ 2026-09-27T11:33:42Z ━━━
+2026-09-27 17:03:42,297 [INFO] signals.generator — Signal generation started at 2026-09-27T11:33:42.297369+00:00
+2026-09-27 17:03:45,534 [INFO] market_data.instruments — BTCUSD: passed liquidity filter (volume $477,001,073, spread 0.001%)
+2026-09-27 17:03:45,619 [INFO] __main__ — Command received: /recommendations
+2026-09-27 17:03:47,275 [INFO] telegram.bot — Telegram message sent successfully
+2026-09-27 17:03:51,542 [INFO] market_data.instruments — ETHUSD: passed liquidity filter (volume $308,551,240, spread 0.002%)
+2026-09-27 17:03:57,480 [INFO] market_data.instruments — SOLUSD: passed liquidity filter (volume $194,671,959, spread 0.009%)
+2026-09-27 17:03:58,651 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 17:03:59,865 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 17:03:59,869 [INFO] signals.generator — BTC context: 4H=NEUTRAL 1H=NEUTRAL
+2026-09-27 17:03:59,869 [INFO] signals.generator — Processing BTCUSD …
+2026-09-27 17:04:01,127 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 17:04:02,175 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 17:04:03,984 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 15m
+2026-09-27 17:04:05,355 [INFO] market_data.candles — Fetched 48 candles for BTCUSD 1h
+2026-09-27 17:04:05,425 [INFO] signals.generator — BTCUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 17:04:05,734 [INFO] signals.generator — Processing ETHUSD …
+2026-09-27 17:04:06,858 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 4h
+2026-09-27 17:04:07,911 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 1h
+2026-09-27 17:04:08,933 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 15m
+2026-09-27 17:04:09,986 [INFO] market_data.candles — Fetched 48 candles for ETHUSD 1h
+2026-09-27 17:04:10,121 [INFO] signals.generator — ETHUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 17:04:10,449 [INFO] signals.generator — Processing SOLUSD …
+2026-09-27 17:04:11,541 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 4h
+2026-09-27 17:04:12,538 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 1h
+2026-09-27 17:04:13,553 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 15m
+2026-09-27 17:04:14,730 [INFO] market_data.candles — Fetched 48 candles for SOLUSD 1h
+2026-09-27 17:04:14,808 [INFO] signals.generator — SOLUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 17:04:15,055 [INFO] signals.generator — Signal generation complete. Valid signals: 0
+2026-09-27 17:04:15,056 [INFO] __main__ — Found 0 valid setup(s)
+2026-09-27 17:04:15,061 [INFO] __main__ — Scan #4 complete. Sleeping 300s …
+2026-09-27 17:09:15,062 [INFO] __main__ — ━━━ Scan #5 @ 2026-09-27T11:39:15Z ━━━
+2026-09-27 17:09:15,063 [INFO] signals.generator — Signal generation started at 2026-09-27T11:39:15.063115+00:00
+2026-09-27 17:09:18,252 [INFO] market_data.instruments — BTCUSD: passed liquidity filter (volume $478,128,082, spread 0.001%)
+2026-09-27 17:09:24,256 [INFO] market_data.instruments — ETHUSD: passed liquidity filter (volume $309,333,629, spread 0.002%)
+2026-09-27 17:09:30,268 [INFO] market_data.instruments — SOLUSD: passed liquidity filter (volume $193,456,926, spread 0.008%)
+2026-09-27 17:09:31,454 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 17:09:32,536 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 17:09:32,540 [INFO] signals.generator — BTC context: 4H=NEUTRAL 1H=NEUTRAL
+2026-09-27 17:09:32,541 [INFO] signals.generator — Processing BTCUSD …
+2026-09-27 17:09:33,605 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 17:09:34,576 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 17:09:35,595 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 15m
+2026-09-27 17:09:36,786 [INFO] market_data.candles — Fetched 48 candles for BTCUSD 1h
+2026-09-27 17:09:36,860 [INFO] signals.generator — BTCUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 17:09:37,109 [INFO] signals.generator — Processing ETHUSD …
+2026-09-27 17:09:38,209 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 4h
+2026-09-27 17:09:39,323 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 1h
+2026-09-27 17:09:40,451 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 15m
+2026-09-27 17:09:41,673 [INFO] market_data.candles — Fetched 48 candles for ETHUSD 1h
+2026-09-27 17:09:41,741 [INFO] signals.generator — ETHUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 17:09:41,997 [INFO] signals.generator — Processing SOLUSD …
+2026-09-27 17:09:43,093 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 4h
+2026-09-27 17:09:44,115 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 1h
+2026-09-27 17:09:45,268 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 15m
+2026-09-27 17:09:46,296 [INFO] market_data.candles — Fetched 48 candles for SOLUSD 1h
+2026-09-27 17:09:46,377 [INFO] signals.generator — SOLUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 17:09:46,601 [INFO] signals.generator — Signal generation complete. Valid signals: 0
+2026-09-27 17:09:46,602 [INFO] __main__ — Found 0 valid setup(s)
+2026-09-27 17:09:46,608 [INFO] __main__ — Scan #5 complete. Sleeping 300s …
+2026-09-27 17:14:46,609 [INFO] __main__ — ━━━ Scan #6 @ 2026-09-27T11:44:46Z ━━━
+2026-09-27 17:14:46,609 [INFO] signals.generator — Signal generation started at 2026-09-27T11:44:46.609669+00:00
+2026-09-27 17:14:49,812 [INFO] market_data.instruments — BTCUSD: passed liquidity filter (volume $478,128,082, spread 0.001%)
+2026-09-27 17:14:55,811 [INFO] market_data.instruments — ETHUSD: passed liquidity filter (volume $309,333,629, spread 0.002%)
+2026-09-27 17:15:01,794 [INFO] market_data.instruments — SOLUSD: passed liquidity filter (volume $193,456,926, spread 0.009%)
+2026-09-27 17:15:02,927 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 17:15:04,054 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 17:15:04,058 [INFO] signals.generator — BTC context: 4H=NEUTRAL 1H=NEUTRAL
+2026-09-27 17:15:04,058 [INFO] signals.generator — Processing BTCUSD …
+2026-09-27 17:15:05,281 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 17:15:06,509 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 17:15:07,739 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 15m
+2026-09-27 17:15:08,861 [INFO] market_data.candles — Fetched 48 candles for BTCUSD 1h
+2026-09-27 17:15:08,907 [INFO] signals.generator — BTCUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 17:15:09,140 [INFO] signals.generator — Processing ETHUSD …
+2026-09-27 17:15:10,270 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 4h
+2026-09-27 17:15:11,383 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 1h
+2026-09-27 17:15:12,652 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 15m
+2026-09-27 17:15:13,877 [INFO] market_data.candles — Fetched 48 candles for ETHUSD 1h
+2026-09-27 17:15:13,928 [INFO] signals.generator — ETHUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 17:15:14,163 [INFO] signals.generator — Processing SOLUSD …
+2026-09-27 17:15:15,524 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 4h
+2026-09-27 17:15:16,761 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 1h
+2026-09-27 17:15:18,042 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 15m
+2026-09-27 17:15:19,208 [INFO] market_data.candles — Fetched 48 candles for SOLUSD 1h
+2026-09-27 17:15:19,256 [INFO] signals.generator — SOLUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 17:15:19,522 [INFO] signals.generator — Signal generation complete. Valid signals: 0
+2026-09-27 17:15:19,523 [INFO] __main__ — Found 0 valid setup(s)
+2026-09-27 17:15:19,529 [INFO] __main__ — Scan #6 complete. Sleeping 300s …
+2026-09-27 17:20:19,530 [INFO] __main__ — ━━━ Scan #7 @ 2026-09-27T11:50:19Z ━━━
+2026-09-27 17:20:19,531 [INFO] signals.generator — Signal generation started at 2026-09-27T11:50:19.531739+00:00
+2026-09-27 17:20:22,725 [INFO] market_data.instruments — BTCUSD: passed liquidity filter (volume $479,294,130, spread 0.001%)
+2026-09-27 17:20:28,857 [INFO] market_data.instruments — ETHUSD: passed liquidity filter (volume $309,695,699, spread 0.002%)
+2026-09-27 17:20:34,797 [INFO] market_data.instruments — SOLUSD: passed liquidity filter (volume $192,414,734, spread 0.001%)
+2026-09-27 17:20:35,899 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 17:20:37,212 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 17:20:37,219 [INFO] signals.generator — BTC context: 4H=NEUTRAL 1H=NEUTRAL
+2026-09-27 17:20:37,220 [INFO] signals.generator — Processing BTCUSD …
+2026-09-27 17:20:39,004 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 17:20:40,239 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 17:20:41,278 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 15m
+2026-09-27 17:20:42,310 [INFO] market_data.candles — Fetched 48 candles for BTCUSD 1h
+2026-09-27 17:20:42,356 [INFO] signals.generator — BTCUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 17:20:42,590 [INFO] signals.generator — Processing ETHUSD …
+2026-09-27 17:20:43,614 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 4h
+2026-09-27 17:20:44,381 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 1h
+2026-09-27 17:20:45,141 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 15m
+2026-09-27 17:20:45,872 [INFO] market_data.candles — Fetched 48 candles for ETHUSD 1h
+2026-09-27 17:20:45,891 [INFO] signals.generator — ETHUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 17:20:45,984 [INFO] signals.generator — Processing SOLUSD …
+2026-09-27 17:20:46,681 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 4h
+2026-09-27 17:20:47,566 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 1h
+2026-09-27 17:20:48,218 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 15m
+2026-09-27 17:20:48,934 [INFO] market_data.candles — Fetched 48 candles for SOLUSD 1h
+2026-09-27 17:20:49,000 [INFO] signals.generator — SOLUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 17:20:49,123 [INFO] signals.generator — Signal generation complete. Valid signals: 0
+2026-09-27 17:20:49,124 [INFO] __main__ — Found 0 valid setup(s)
+2026-09-27 17:20:49,127 [INFO] __main__ — Scan #7 complete. Sleeping 300s …
+2026-09-27 17:25:49,128 [INFO] __main__ — ━━━ Scan #8 @ 2026-09-27T11:55:49Z ━━━
+2026-09-27 17:25:49,129 [INFO] signals.generator — Signal generation started at 2026-09-27T11:55:49.129361+00:00
+2026-09-27 17:25:55,026 [INFO] market_data.instruments — BTCUSD: passed liquidity filter (volume $479,294,130, spread 0.001%)
+2026-09-27 17:26:01,120 [INFO] market_data.instruments — ETHUSD: passed liquidity filter (volume $309,695,699, spread 0.004%)
+2026-09-27 17:26:07,049 [INFO] market_data.instruments — SOLUSD: passed liquidity filter (volume $192,414,734, spread 0.009%)
+2026-09-27 17:26:08,230 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 17:26:09,141 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 17:26:09,145 [INFO] signals.generator — BTC context: 4H=NEUTRAL 1H=NEUTRAL
+2026-09-27 17:26:09,146 [INFO] signals.generator — Processing BTCUSD …
+2026-09-27 17:26:10,206 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 17:26:11,390 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 17:26:13,084 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 15m
+2026-09-27 17:26:14,635 [INFO] market_data.candles — Fetched 48 candles for BTCUSD 1h
+2026-09-27 17:26:14,680 [INFO] signals.generator — BTCUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 17:26:14,905 [INFO] signals.generator — Processing ETHUSD …
+2026-09-27 17:26:16,027 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 4h
+2026-09-27 17:26:17,336 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 1h
+2026-09-27 17:26:18,970 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 15m
+2026-09-27 17:26:20,057 [INFO] market_data.candles — Fetched 48 candles for ETHUSD 1h
+2026-09-27 17:26:20,107 [INFO] signals.generator — ETHUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 17:26:20,367 [INFO] signals.generator — Processing SOLUSD …
+2026-09-27 17:26:21,586 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 4h
+2026-09-27 17:26:22,676 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 1h
+2026-09-27 17:26:23,685 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 15m
+2026-09-27 17:26:24,732 [INFO] market_data.candles — Fetched 48 candles for SOLUSD 1h
+2026-09-27 17:26:24,780 [INFO] signals.generator — SOLUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 17:26:25,070 [INFO] signals.generator — Signal generation complete. Valid signals: 0
+2026-09-27 17:26:25,071 [INFO] __main__ — Found 0 valid setup(s)
+2026-09-27 17:26:25,085 [INFO] __main__ — Scan #8 complete. Sleeping 300s …
+2026-09-27 17:31:25,086 [INFO] __main__ — ━━━ Scan #9 @ 2026-09-27T12:01:25Z ━━━
+2026-09-27 17:31:25,087 [INFO] signals.generator — Signal generation started at 2026-09-27T12:01:25.087352+00:00
+2026-09-27 17:31:28,317 [INFO] market_data.instruments — BTCUSD: passed liquidity filter (volume $479,792,305, spread 0.001%)
+2026-09-27 17:31:34,359 [INFO] market_data.instruments — ETHUSD: passed liquidity filter (volume $310,717,389, spread 0.002%)
+2026-09-27 17:31:40,277 [INFO] market_data.instruments — SOLUSD: passed liquidity filter (volume $191,105,378, spread 0.009%)
+2026-09-27 17:31:41,442 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 17:31:42,248 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 17:31:42,250 [INFO] signals.generator — BTC context: 4H=NEUTRAL 1H=NEUTRAL
+2026-09-27 17:31:42,251 [INFO] signals.generator — Processing BTCUSD …
+2026-09-27 17:31:42,966 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 4h
+2026-09-27 17:31:43,741 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 1h
+2026-09-27 17:31:44,603 [INFO] market_data.candles — Fetched 200 candles for BTCUSD 15m
+2026-09-27 17:31:45,330 [INFO] market_data.candles — Fetched 48 candles for BTCUSD 1h
+2026-09-27 17:31:45,352 [INFO] signals.generator — BTCUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 17:31:45,484 [INFO] signals.generator — Processing ETHUSD …
+2026-09-27 17:31:46,332 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 4h
+2026-09-27 17:31:47,020 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 1h
+2026-09-27 17:31:47,882 [INFO] market_data.candles — Fetched 200 candles for ETHUSD 15m
+2026-09-27 17:31:48,599 [INFO] market_data.candles — Fetched 48 candles for ETHUSD 1h
+2026-09-27 17:31:48,636 [INFO] signals.generator — ETHUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 17:31:48,787 [INFO] signals.generator — Processing SOLUSD …
+2026-09-27 17:31:49,522 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 4h
+2026-09-27 17:31:50,341 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 1h
+2026-09-27 17:31:50,970 [INFO] market_data.candles — Fetched 200 candles for SOLUSD 15m
+2026-09-27 17:31:51,775 [INFO] market_data.candles — Fetched 48 candles for SOLUSD 1h
+2026-09-27 17:31:51,807 [INFO] signals.generator — SOLUSD MTF: 4H=NEUTRAL 1H=NEUTRAL Status=ALIGNED
+2026-09-27 17:31:51,906 [INFO] signals.generator — Signal generation complete. Valid signals: 0
+2026-09-27 17:31:51,907 [INFO] __main__ — Found 0 valid setup(s)
+2026-09-27 17:31:51,911 [INFO] __main__ — Scan #9 complete. Sleeping 300s …
+2026-09-27 17:31:56,843 [INFO] __main__ — Shutdown signal received

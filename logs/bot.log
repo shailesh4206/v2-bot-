@@ -1,0 +1,8 @@
+2026-09-27 16:10:45,035 [INFO] __main__ — ============================================================
+2026-09-27 16:10:45,035 [INFO] __main__ — 🚀 DELTA MTF LIQUIDITY BOT STARTING
+2026-09-27 16:10:45,039 [INFO] __main__ —    Strategy:  v1.0
+2026-09-27 16:10:45,039 [INFO] __main__ —    Mode:      LIVE SIGNAL
+2026-09-27 16:10:45,039 [INFO] __main__ —    Symbols:   ['BTCUSD', 'ETHUSD', 'SOLUSD']
+2026-09-27 16:10:45,039 [INFO] __main__ —    Timeframes: 4H | 1H | 15M (NO 5M)
+2026-09-27 16:10:45,039 [INFO] __main__ —    ⚠️  SIGNAL-ONLY — BOT DOES NOT PLACE ORDERS
+2026-09-27 16:10:45,041 [INFO] __main__ — ============================================================
