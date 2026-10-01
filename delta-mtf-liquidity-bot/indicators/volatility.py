@@ -250,6 +250,17 @@ def atr(
 
     return atr_series
 
+def calculate_atr(
+    df: pd.DataFrame,
+    period: int = ATR_PERIOD,
+) -> pd.Series:
+    """
+    Backward-compatible ATR helper.
+
+    Existing modules may import calculate_atr().
+    Internally uses the institutional Wilder-style atr() engine.
+    """
+    return atr(df, period)
 
 def get_current_atr(
     df: pd.DataFrame,
