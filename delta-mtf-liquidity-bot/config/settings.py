@@ -85,7 +85,7 @@ LIVE_SIGNAL_MODE = True    # True = monitor live market, send Telegram signals
 # Bot rescans on each confirmed 15M candle close.
 # Polling interval in seconds (slightly after the 15m boundary).
 # ─────────────────────────────────────────────
-SCAN_INTERVAL_SECONDS = 300  # 5 minutes
+SCAN_INTERVAL_SECONDS = 60  # 1 minute
 
 # ─────────────────────────────────────────────
 # WEEKLY REPORT SCHEDULE
